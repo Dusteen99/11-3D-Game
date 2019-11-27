@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/blockHexagon.obj-dfcf2674e23df85d1399e85bf7f1e86c.mesh"
+
+[deps]
+
+files=[ "res://.import/blockHexagon.obj-dfcf2674e23df85d1399e85bf7f1e86c.mesh" ]
+
+source_file="res://Assets/Platformer/Usable Stuff/blockHexagon.obj"
+dest_files=[ "res://.import/blockHexagon.obj-dfcf2674e23df85d1399e85bf7f1e86c.mesh", "res://.import/blockHexagon.obj-dfcf2674e23df85d1399e85bf7f1e86c.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

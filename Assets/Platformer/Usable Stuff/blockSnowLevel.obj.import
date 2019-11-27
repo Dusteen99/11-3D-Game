@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/blockSnowLevel.obj-e819c2effe538db76114a6a840e74e53.mesh"
+
+[deps]
+
+files=[ "res://.import/blockSnowLevel.obj-e819c2effe538db76114a6a840e74e53.mesh" ]
+
+source_file="res://Assets/Platformer/Usable Stuff/blockSnowLevel.obj"
+dest_files=[ "res://.import/blockSnowLevel.obj-e819c2effe538db76114a6a840e74e53.mesh", "res://.import/blockSnowLevel.obj-e819c2effe538db76114a6a840e74e53.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
