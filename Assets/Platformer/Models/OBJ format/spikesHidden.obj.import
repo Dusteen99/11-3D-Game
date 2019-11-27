@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/spikesHidden.obj-db8e68c07347383b6b1f8fa8fcafdb56.mesh"
+
+[deps]
+
+files=[ "res://.import/spikesHidden.obj-db8e68c07347383b6b1f8fa8fcafdb56.mesh" ]
+
+source_file="res://Assets/Platformer/Models/OBJ format/spikesHidden.obj"
+dest_files=[ "res://.import/spikesHidden.obj-db8e68c07347383b6b1f8fa8fcafdb56.mesh", "res://.import/spikesHidden.obj-db8e68c07347383b6b1f8fa8fcafdb56.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

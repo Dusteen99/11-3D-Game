@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/blockCliffCorner.obj-aa3d6c18134770c211740ab8d27c143f.mesh"
+
+[deps]
+
+files=[ "res://.import/blockCliffCorner.obj-aa3d6c18134770c211740ab8d27c143f.mesh" ]
+
+source_file="res://Assets/Platformer/Models/OBJ format/blockCliffCorner.obj"
+dest_files=[ "res://.import/blockCliffCorner.obj-aa3d6c18134770c211740ab8d27c143f.mesh", "res://.import/blockCliffCorner.obj-aa3d6c18134770c211740ab8d27c143f.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true

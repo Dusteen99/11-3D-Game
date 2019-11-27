@@ -1,0 +1,18 @@
+[remap]
+
+importer="wavefront_obj"
+type="Mesh"
+path="res://.import/blockDirt.obj-4540e170b29fd516bbdb886fbe2b2fb1.mesh"
+
+[deps]
+
+files=[ "res://.import/blockDirt.obj-4540e170b29fd516bbdb886fbe2b2fb1.mesh" ]
+
+source_file="res://Assets/Platformer/Models/OBJ format/blockDirt.obj"
+dest_files=[ "res://.import/blockDirt.obj-4540e170b29fd516bbdb886fbe2b2fb1.mesh", "res://.import/blockDirt.obj-4540e170b29fd516bbdb886fbe2b2fb1.mesh" ]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3( 1, 1, 1 )
+optimize_mesh=true
