@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Scenes/Crate.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/FPSCharacter.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Scenes/SnowBlockLarge.tscn" type="PackedScene" id=3]
 
 [sub_resource type="SpatialMaterial" id=1]
 albedo_color = Color( 0.286275, 0.313726, 0.341176, 1 )
@@ -40,3 +41,47 @@ shadow_enabled = true
 shadow_color = Color( 0.129412, 0.145098, 0.160784, 1 )
 
 [node name="FPCharacter" parent="." instance=ExtResource( 2 )]
+
+[node name="Node" type="Node" parent="."]
+
+[node name="Large Snow Block" parent="Node" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -10.2078 )
+
+[node name="Large Snow Block2" parent="Node" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -10.2078 )
+
+[node name="Large Snow Block3" parent="Node" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -12.2078 )
+
+[node name="Large Snow Block4" parent="Node" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8.20777 )
+
+[node name="Large Snow Block5" parent="Node" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -8.20777 )
+
+[node name="Large Snow Block6" parent="Node" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, -12.2078 )
+
+[node name="Large Snow Block7" parent="Node" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -12.2078 )
+
+[node name="Large Snow Block8" parent="Node" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, -8.20777 )
+
+[node name="Large Snow Block9" parent="Node" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -14.2078 )
+
+[node name="Large Snow Block10" parent="Node" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -6.20777 )
+
+[node name="Large Snow Block11" parent="Node" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, -10.2078 )
+
+[node name="Large Snow Block12" parent="Node" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -4, 0, -10.2078 )
+
+[node name="Large Snow Block13" parent="Node" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -16.2078 )
+
+[node name="Large Snow Block14" parent="Node" instance=ExtResource( 3 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 2.06772, 0, -10.2078 )
