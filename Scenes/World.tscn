@@ -18,7 +18,7 @@ points = PoolVector3Array( 10, 0, 10, -10, 0, 10, 10, 0, -10, -10, 0, -10 )
 [node name="Ground" type="StaticBody" parent="."]
 
 [node name="MeshInstance" type="MeshInstance" parent="Ground"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0944796, 0.0631865, 0.0122795 )
+transform = Transform( 10, 0, 0, 0, 1, 0, 0, 0, 10, 0.0944796, 0.0631865, 0.0122795 )
 mesh = SubResource( 2 )
 material/0 = null
 
@@ -39,4 +39,4 @@ transform = Transform( 0.939326, 0.165016, 0.300728, -0.320125, 0.736663, 0.5956
 shadow_enabled = true
 shadow_color = Color( 0.129412, 0.145098, 0.160784, 1 )
 
-[node name="FPSCharacter" parent="." instance=ExtResource( 2 )]
+[node name="FPCharacter" parent="." instance=ExtResource( 2 )]
